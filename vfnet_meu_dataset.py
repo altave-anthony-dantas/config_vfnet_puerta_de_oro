@@ -3,7 +3,7 @@
 # Herda todas as configurações padrão da VFNet com backbone ResNet-50
 _base_ = '../vfnet/vfnet_r50_fpn_1x_coco.py'
 
-data_root = '/home/altave/projects/dataset_puerta_de_oro_termal_v2/' 
+data_root = '/home/altave/projects/dataset_puerta_de_oro_opt/' 
 
 metainfo = {
     'classes': ('pessoa', 'veiculo'),
